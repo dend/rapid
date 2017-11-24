@@ -11,7 +11,7 @@ This extension enables API documentation search directly from Visual Studio code
 ## Currently Supported Languages
 
 * C#
-* VB.NET
+* VB .NET
 * PowerShell
 
 ## Feedback
