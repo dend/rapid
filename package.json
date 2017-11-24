@@ -13,6 +13,9 @@
     "activationEvents": [
         "onCommand:extension.lookupApi"
     ],
+    "config": {
+        "unsafe-perm":true
+    },
     "main": "./out/extension",
     "contributes": {
         "commands": [
