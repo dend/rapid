@@ -3,7 +3,7 @@
     "displayName": "Rapid API Search",
     "description": "Quick and easy API documentation lookup.",
     "version": "0.0.1",
-    "publisher": "den",
+    "publisher": "dend",
     "homepage": "https://github.com/dend/rapid",
     "icon" : "_ghimages/icon.png",
     "engines": {
