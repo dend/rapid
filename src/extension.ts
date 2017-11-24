@@ -97,7 +97,7 @@ export function activate(context: vscode.ExtensionContext) {
             } while (t);
            
 
-            let content = new Object();
+            let content : any = new Object();
             let doc = new dom().parseFromString(textResponse);
             
             let sigNodes = xpath.select(signatureLookup, doc);
