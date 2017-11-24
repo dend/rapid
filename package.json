@@ -1,0 +1,53 @@
+{
+    "name": "rapid",
+    "displayName": "Rapid",
+    "description": "Quick and easy API documentation lookup.",
+    "version": "0.0.1",
+    "publisher": "den",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.lookupApi"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.lookupApi",
+                "title": "Lookup API"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.lookupApi",
+                "key": "ctrl+f1",
+                "mac": "cmd+f1",
+                "when": "editorTextFocus"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "dependencies": {
+        "superagent": "^3.8.1",
+        "xpath": "^0.0.24",
+        "xmldom": "^0.1.27",
+        "file-url": "^2.0.2",
+        "js-htmlencode": "^0.3.0"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
