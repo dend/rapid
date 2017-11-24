@@ -2,6 +2,8 @@
 
 <img src="_ghimages/rapid-logo.png" style="max-width: 340px"></img>
 
+![VSTS Build Status](https://deninfra.visualstudio.com/_apis/public/build/definitions/c2809017-dd53-4e31-a035-32f958a47849/3/badge)
+
 This extension enables API documentation search directly from Visual Studio code. Simply use <kbd>Ctrl</kbd> + <kbd>F1</kbd> (or <kbd>Cmd</kbd> + <kbd>F1</kbd> on macOS) to see if the docs.microsoft.com API reference documentation exists for the selected entity.
 
 ## Feedback
