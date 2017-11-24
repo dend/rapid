@@ -8,6 +8,12 @@ This extension enables API documentation search directly from Visual Studio code
 
 <img src="_ghimages/extension.gif" alt="Extension in action"></img>
 
+## Currently Supported Languages
+
+* C#
+* VB.NET
+* PowerShell
+
 ## Feedback
 
 Direct all feedback to [Den Delimarsky on Twitter](https://twitter.com/denniscode).
